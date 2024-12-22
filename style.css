@@ -1,30 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.hdr{
-    background-color: #ffffff; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.hdr {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.items-in-navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    list-style-type: none;
+.items-in-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
 }
-.items-except-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+.items-except-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 .items-in-navbar li a {
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #222;
-    font-size: 16px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  font-size: 16px;
+}
+
+/* 1st main section styling */
+
+.main-section {
+  /* background-color: blue; */
+  padding: 50px 0px;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #222222;
+  line-height: 1.3em;
+  padding: 0px 0px 10px;
+}
+
+.img-response {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.sec-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 2rem;
+  line-height: 1.3em;
+  padding: 10px 0px 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.dec-para {
+  padding-bottom: 10px;
+}
+
+.second-line {
+  justify-content: center;
+  align-items: center;
+  line-height: 1.3em;
+}
+
+.btn-download {
+  padding: 10px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: #00b6d1;
+  margin-left: 480px;
+  margin-right: 480px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
 }
