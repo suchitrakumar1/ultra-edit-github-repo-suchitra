@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hdr{
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items-in-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+.items-except-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.items-in-navbar li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    font-size: 16px;
+}
