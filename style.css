@@ -92,3 +92,109 @@
   outline: none;
   margin-top: 20px;
 }
+.download-alongwith-slogan{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.paragraph-2{
+  font-size: 30px;
+  font-weight: 400;
+}
+.vs{
+  font-size: medium;
+}
+.download-sections-using-grid{
+  display: grid;
+  grid-template-columns: repeat(3,302px);
+  grid-template-rows:repeat(3,169px);
+  gap: 25px;
+  max-width: 955px;
+  margin: 10px auto;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.box1{
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.box2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.box3 {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+}
+
+.box4 {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.box5 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.box6 {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+
+.box7 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+
+.box8 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+.box9 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+
+.download-64-bit-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.short-code {
+  font-size: small;
+  color: #555;
+}
+
+.long-code {
+  font-size: small;
+  font-family: monospace;
+  color: #222;
+}
+.small-language{
+  font-weight: 400;
+  font-size: medium;
+}
+
+
